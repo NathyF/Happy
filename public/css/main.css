@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,7 +28,7 @@ textarea {
 }
 
 /*em multipla o valor q você escolhe pelo tamanho da font no elemento pai, por exemplo se o valor que você quer é para o body, ele está dentro do html, então o html é o elemento pai, se o font-size for valor x você multipla o valor que você escolheu pelo valor, e ele te retorna o valor*/
-/*rem ele multiplica o valor que você escolhe pelo root que está SEMPRE no html, e sempre tem o valor padrão de 16px, caso você queira mudar esse valor padrão você tem que atribuir um valor no :root pelo css*/
+/*rem ele multiplica o valor que você escolhe pelo root que está SEMPRE no html, e tem normalmente o valor padrão de 16px (nem sempre 16px vai ser o valor padrão, varia de tela pra tela), caso você queira mudar esse valor padrão você tem que atribuir um valor no :root pelo css*/
 
 /*display block: h1, p, div
 display inline: span, strong, a
